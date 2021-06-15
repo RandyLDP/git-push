@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(206, 206, 206);
+}
+.red-background {
+  background-color: red;
+}
+.orange-background {
+  background-color: orange;
+}
+.purple-background {
+  background-color: purple;
+}
+.green-background {
+  background-color: green;
+}
+
+.main-nav {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  visibility: hidden;
+}
+.main-nav:hover {
+  visibility: visible;
+  background-color: transparent;
+}
+
+.menu img {
+  width: 60px;
+  height: 60px;
+  visibility: visible;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 0;
+  padding: 1.1em 0;
+  line-height: 1.8em;
+  cursor: pointer;
+}
+
+ul li {
+  border-style: solid;
+  border-width: 1px 0;
+  width: 200px;
+  overflow: hidden;
+  padding: 5px;
+  cursor: pointer;
+  border-color: rgb(206, 206, 206);
+  transition: all 1s ease-out;
+}
+
+span {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: rgb(34, 33, 33);
+  border-style: none;
+}
+
+ul li a {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+  cursor: pointer;
+}
+
+ul :nth-child(2) {
+  background-color: red;
+}
+ul :nth-child(3) {
+  background-color: orange;
+}
+ul :nth-child(4) {
+  background-color: purple;
+}
+ul :nth-child(5) {
+  background-color: green;
+}
